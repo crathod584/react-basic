@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css'
 import * as serviceWorker from './serviceWorker';
 
-//----------------Calling arrow funtion with props (or passing valu in component) using varible
+//----------------Calling arrow funtion with props (or passing valu in component)
  const StudentDetails = (student) =>{
   return <div>
    
