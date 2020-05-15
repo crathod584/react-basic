@@ -2,10 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
 // import Users from './porps-class/user/Users'
-import Employee from './porps-class/employee/Employee'
+// import Employee from './porps-class/employee/Employee'
+import StateExample from './state/StateExample'
+
+
+
+// ------ State example class component using porps with this keyword
+ReactDOM.render(<StateExample />,document.getElementById('root'));
+
+
 
 // ------ User class component using porps with this keyword
-ReactDOM.render(<Employee Id="1" Name="Chetan"/>,document.getElementById('root'));
+// ReactDOM.render(<Employee Id="1" Name="Chetan"/>,document.getElementById('root'));
 
 // ------ User class component using function component
 // ReactDOM.render(<Users/>,document.getElementById('root'));
