@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
-// import Users from './user/Users'
-import Employee from './employee/Employee'
+// import Users from './porps-class/user/Users'
+import Employee from './porps-class/employee/Employee'
 
 // ------ User class component using porps with this keyword
 ReactDOM.render(<Employee Id="1" Name="Chetan"/>,document.getElementById('root'));
