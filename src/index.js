@@ -1,63 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css'
 import * as serviceWorker from './serviceWorker';
+// import Users from './user/Users'
+import Employee from './employee/Employee'
 
-//----------------Calling arrow funtion with props (or passing valu in component)
- const StudentDetails = (student) =>{
-  return <div>
-   
-   <p><label>Student ID: <strong>{student.ID}</strong></label></p>
-   <p><label>Student Name: <strong>{student.Name}</strong></label></p>
-     </div>  
- }
-ReactDOM.render(<StudentDetails ID="121" Name="Chetan"/>,document.getElementById('root'));
+// ------ User class component using porps with this keyword
+ReactDOM.render(<Employee Id="1" Name="Chetan"/>,document.getElementById('root'));
 
-
-//----------------Calling funtion with props (or passing valu in component) using varible
-// function StudentDetails(student){
-//   return <div>
-   
-// <p><label>Student ID: <strong>{student.ID}</strong></label></p>
-// <p><label>Student Name: <strong>{student.Name}</strong></label></p>
-//   </div>  
-// }
-// const element = <StudentDetails ID="12" Name="Chetan"/>;
-// ReactDOM.render(element,document.getElementById('root'));
-
-
-
-//----------------Calling funtion with props (or passing valu in component)
-// function StudentDetails(student){
-//   return <div>
-   
-// <p><label>Student ID: <strong>{student.ID}</strong></label></p>
-// <p><label>Student Name: <strong>{student.Name}</strong></label></p>
-//   </div>  
-// }
-// ReactDOM.render(<StudentDetails ID="1" Name="Chetan"/>,document.getElementById('root'));
-
-// -------------------------Caling arrow funtion as component in ReactDOM.render method
-// const Greet = () => {
-//   return <h1>CHetan-3</h1>
-// }
-// ReactDOM.render(<Greet/>,document.getElementById('root'));
-
-
-
-// ----------------------------------Caling funtion as component in ReactDOM.render method
-// function Greet(){
-//   return <h1>CHetan-1</h1>
-// }
-// ReactDOM.render(<Greet/>,document.getElementById('root'));
-
-
-
-// ------------------------------------Caling funtion in ReactDOM.render method
-// function Greet(){
-//   return <h1>CHetan-1</h1>
-// }
-// ReactDOM.render(Greet(),document.getElementById('root'));
+// ------ User class component using function component
+// ReactDOM.render(<Users/>,document.getElementById('root'));
 
 
 // If you want your app to work offline and load faster, you can change
