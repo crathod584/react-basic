@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project has a small program which increment and decremnrt a number using some basics of react that is ### Analyzing the Bundle Size
 
 ## Available Scripts
 
