@@ -1,22 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
-// import Users from './porps-class/user/Users'
-// import Employee from './porps-class/employee/Employee'
-import StateExample from './state/StateExample'
+// import ClickFunctionComponent from './event/ClickFunction'
+import ClickCassComponent from './event/ClickClass'
+ 
+// ----------click event in class component
+ReactDOM.render(<ClickCassComponent/>,document.getElementById('root'))
+
+// ------ click event in function component
+// ReactDOM.render(<ClickFunctionComponent />,document.getElementById('root'));
 
 
-
-// ------ State example class component using porps with this keyword
-ReactDOM.render(<StateExample />,document.getElementById('root'));
-
-
-
-// ------ User class component using porps with this keyword
-// ReactDOM.render(<Employee Id="1" Name="Chetan"/>,document.getElementById('root'));
-
-// ------ User class component using function component
-// ReactDOM.render(<Users/>,document.getElementById('root'));
 
 
 // If you want your app to work offline and load faster, you can change
