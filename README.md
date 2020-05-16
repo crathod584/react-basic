@@ -1,4 +1,4 @@
-This project has a small program which increment and decremnrt a number using some basics of react that is ### Analyzing the Bundle Size
+This project has a small program which increment and decremnrt a number using some basics of react that is react-element, react class component , react function component, events, state and props.
 
 ## Available Scripts
 
