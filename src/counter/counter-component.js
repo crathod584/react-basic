@@ -23,9 +23,11 @@ class CounterComponent extends React.Component{
                     console.log('call back value call after vvalue update', this.state.count)
                 });    
 
-        // update for multiple in one click
-        // this.setState((prevState) => ({
+        // update for multiple in one click and setsate secound param is props
+        // this.setState((prevState,props) => ({
         //     count: prevState.count+1 
+        //     count1: prevState.count+props.value 
+
         // }));
 
             console.log(this.state.count);
