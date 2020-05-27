@@ -6,6 +6,9 @@ class ClickCassComponent extends React.Component {
     //     super();
     //     // 4. this.clickMe = this.clickMe.bind(this);
     // }
+    
+
+    // Only need to find event if we are using "this" keyword inside a function 
 
     render(){
         return <div>
