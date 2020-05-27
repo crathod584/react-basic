@@ -2,10 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
 // import ClickFunctionComponent from './event/ClickFunction'
-import ClickCassComponent from './event/ClickClass'
- 
+// import ClickCassComponent from './event/ClickClass'
+import Users from './porps-class/employee//user/Users' 
+
+ReactDOM.render(<Users/>,document.getElementById('root'))
+
+
 // ----------click event in class component
-ReactDOM.render(<ClickCassComponent/>,document.getElementById('root'))
+// ReactDOM.render(<ClickCassComponent/>,document.getElementById('root'))
 
 // ------ click event in function component
 // ReactDOM.render(<ClickFunctionComponent />,document.getElementById('root'));
