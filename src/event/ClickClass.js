@@ -18,6 +18,8 @@ class ClickCassComponent extends React.Component {
             */}
 
             {/*  3.use arrow function in render function method to bind click event but it's not good pratice because it will bind event again and again whenever react re-render the UI 
+
+            use this approch when you want to pass pram in function
             <button onClick={() => this.clickMe()} >Click me class</button> 
             */}
 
