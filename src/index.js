@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
-import CounterComponent from './counter/counter-component'
-import Users from './porps-class/employee//user/Users' 
+import ConditionalRendring from './react-feature/ConditionalRendring'
+// import Users from './porps-class/employee//user/Users' 
  
 //-------------counter increment and decrement
 // ReactDOM.render(<CounterComponent/>,document.getElementById('root'));
 // import ClickFunctionComponent from './event/ClickFunction'
 // import ClickCassComponent from './event/ClickClass'
 
-ReactDOM.render(<Users/>,document.getElementById('root'))
+ReactDOM.render(<ConditionalRendring/>,document.getElementById('root'))
 
 
 // ----------click event in class component
