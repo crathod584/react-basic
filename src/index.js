@@ -6,7 +6,6 @@ import ListRendring from './react-feature/ListRendring'
 import Form from './react-feature/Form'
 import LifeCycle from './lifeCycle/LifeCycle';
 
-
 // import Users from './porps-class/employee//user/Users' 
  
 //-------------counter increment and decrement
@@ -17,8 +16,7 @@ import LifeCycle from './lifeCycle/LifeCycle';
 // ReactDOM.render(<ConditionalRendring/>,document.getElementById('root'))
 // ReactDOM.render(<ListRendring/>,document.getElementById('root'))
 // ReactDOM.render(<Form value="chetan"/>,document.getElementById('root'))
-ReactDOM.render(<LifeCycle />,document.getElementById('root'))
-
+ReactDOM.render(<LifeCycle />,document.getElementById('root'));
 
 
 // ----------click event in class component
