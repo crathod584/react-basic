@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
 import ConditionalRendring from './react-feature/ConditionalRendring'
 import ListRendring from './react-feature/ListRendring'
+import Form from './react-feature/Form'
 
 // import Users from './porps-class/employee//user/Users' 
  
@@ -12,7 +13,8 @@ import ListRendring from './react-feature/ListRendring'
 // import ClickCassComponent from './event/ClickClass'
 
 // ReactDOM.render(<ConditionalRendring/>,document.getElementById('root'))
-ReactDOM.render(<ListRendring/>,document.getElementById('root'))
+// ReactDOM.render(<ListRendring/>,document.getElementById('root'));
+ReactDOM.render(<Form/>,document.getElementById('root'));
 
 
 // ----------click event in class component
